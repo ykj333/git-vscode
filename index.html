@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="유구종 교수 소개와 환영 페이지">
+  <title>유구종 교수 소개</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: #24332c;
+      background: #f5f1e8;
+      font-family: "Malgun Gothic", sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(760px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 80px 0;
+    }
+
+    .welcome {
+      margin-bottom: 56px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid #b8c0b9;
+    }
+
+    .label {
+      margin: 0 0 12px;
+      color: #b34d38;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+      font-family: Batang, serif;
+      font-weight: 400;
+    }
+
+    h1 {
+      margin-bottom: 24px;
+      color: #173f31;
+      font-size: clamp(42px, 9vw, 72px);
+      line-height: 1.15;
+      letter-spacing: -0.06em;
+    }
+
+    h2 {
+      margin-bottom: 16px;
+      font-size: 30px;
+      letter-spacing: -0.04em;
+    }
+
+    p { margin: 0; }
+
+    .intro {
+      max-width: 620px;
+      color: #536158;
+      font-size: 18px;
+    }
+
+    dl {
+      margin: 0;
+      border-top: 2px solid #173f31;
+    }
+
+    .info-row {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 20px;
+      padding: 18px 0;
+      border-bottom: 1px solid #c8cec9;
+    }
+
+    dt {
+      color: #b34d38;
+      font-weight: 700;
+    }
+
+    dd { margin: 0; }
+
+    footer {
+      margin-top: 56px;
+      color: #6c776f;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 520px) {
+      main { padding: 52px 0; }
+      .info-row { grid-template-columns: 1fr; gap: 4px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="welcome" aria-labelledby="page-title">
+      <p class="label">WELCOME</p>
+      <h1 id="page-title">유구종 교수님을<br>환영합니다.</h1>
+      <p class="intro">유구종 교수는 유아교육을 중심으로 교수학습, 교육공학, 디지털 매체와 AI를 활용한 교육을 연구해 온 유아교육학자입니다.</p>
+    </section>
+
+    <section aria-labelledby="profile-title">
+      <h2 id="profile-title">교수 소개</h2>
+      <dl>
+        <div class="info-row">
+          <dt>소속</dt>
+          <dd>강원대학교 원주캠퍼스 유아교육과</dd>
+        </div>
+        <div class="info-row">
+          <dt>전공</dt>
+          <dd>유아교육</dd>
+        </div>
+        <div class="info-row">
+          <dt>주요 분야</dt>
+          <dd>유아교육, 교수학습 및 교육공학, 영유아 AI 놀이와 교육</dd>
+        </div>
+        <div class="info-row">
+          <dt>주요 저서</dt>
+          <dd>《영유아 AI 놀이 및 교육》, 《미래사회와 유아교육》, 《유아교육에서의 교수학습 및 교육공학》</dd>
+        </div>
+      </dl>
+    </section>
+
+    <footer>배움과 성장을 함께하는 뜻깊은 만남을 환영합니다.</footer>
+  </main>
+</body>
+</html>
